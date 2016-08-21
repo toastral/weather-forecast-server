@@ -1,0 +1,3 @@
+AddDefaultCharset utf-8
+RewriteEngine on
+RewriteRule ^(get|del|getdebug)/([^\/]+)\/([^\/]+)\/{0,1}([^\/]*)\/{0,1}/? index.php?cmd=$1&cityname=$2&date_one=$3&date_two=$4 [L]
